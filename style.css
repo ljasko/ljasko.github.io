@@ -54,6 +54,11 @@ a {
   text-decoration: none;
 }
 
+aside.citation {
+  clear: both;
+  font-size: 16px;
+}
+
 body {
   background-color: #eee;
   color: #444;
@@ -83,11 +88,6 @@ button {
 
 button:hover {
   background-color: #7e7eb0;
-}
-
-p.citation {
-  clear: both;
-  font-size: 16px;
 }
 
 h1 {
@@ -126,11 +126,10 @@ h3.result {
 }
 
 p {
-  margin: 0px;
   text-align: left;
 }
 
-p .quote {
+p.quote {
   font-family: 'Raleway', sans-serif;
 }
 
