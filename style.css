@@ -1,0 +1,194 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+aside {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 20px
+}
+
+.info {
+  margin-left: 10px;
+}
+
+.share {
+  margin-right: 10px;
+}
+
+header {
+  background-color: #444;
+  width: 100%;
+}
+
+main {
+  background-color: rgba(68, 68, 68, 0.15);
+  display: flex;
+  margin-bottom: 36px;
+  width: 100%;
+}
+
+section {
+  max-width: 100%;
+  min-height: 120px;
+  padding: 20px;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #eee;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn_main {
+  width: 320px;
+}
+
+.btn_question {
+  margin: 0px 12px;
+  padding: 20px 50px 12px 56px;
+}
+
+button {
+  background-color: #70709c;
+  color: #eee;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 34px;
+  padding: 16px 48px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #7e7eb0;
+}
+
+p.citation {
+  clear: both;
+  font-size: 16px;
+}
+
+h1 {
+  color: #eee;
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+  margin: 0px;
+}
+
+h1.home {
+  color: #eee;
+  font-family: 'Bad Script', cursive;
+  font-size: 36px;
+  margin: 0px 0px 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  text-align: left;
+}
+
+h3.result {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  text-align: left;
+}
+
+p {
+  margin: 0px;
+  text-align: left;
+}
+
+p .quote {
+  font-family: 'Raleway', sans-serif;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+main.bio_Hillary {
+  background-image: url("images/bios/bio-Hillary.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media screen and (min-width: 768px) {
+  .btn_question {
+    margin: 0px 12px;
+    padding: 20px 56px 12px 62px;
+  }
+  h1 {
+    font-size: 36px;
+    margin: 0px 0px 48px;
+  }
+  h1.home {
+    font-size: 58px;
+    margin: 0px 0px 40px;
+  }
+  aside,
+  section{
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
+    padding: 20px;
+  }
+  section {
+    min-height: 360px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  h1.home {
+    font-size: 72px;
+  }
+  aside,
+  section {
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 50%;
+    padding: 20px;
+  }
+  section {
+    min-height: 440px;
+  }
+}
