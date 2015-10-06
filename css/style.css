@@ -21,10 +21,12 @@ aside {
 }
 
 .info {
+  cursor: pointer;
   margin-left: 10px;
 }
 
 .share {
+  cursor: pointer;
   margin-right: 10px;
 }
 
@@ -138,7 +140,7 @@ p.quote {
 /*******************************************/
 
 main.bio_Hillary {
-  background-image: url("images/bios/bio-Hillary.jpg");
+  background-image: url("../css/images/bios/bio-Hillary.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;

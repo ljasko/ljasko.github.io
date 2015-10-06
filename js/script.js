@@ -11,3 +11,22 @@ $('.info').on('click', function(event) {
 	event.preventDefault();
 	$('.citation').slideToggle(200)
 });
+
+
+
+// test of using window size
+
+var windowHeight = $(window).height();
+$('#').css('height', windowHeight);
+
+
+
+// share plugin
+
+new ShareButton({
+  networks: {
+    facebook: {
+      app_id: "abc123"
+    }
+  }
+});
