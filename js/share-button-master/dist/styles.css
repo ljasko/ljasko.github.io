@@ -22,7 +22,7 @@ share-button:before {
   width: 1em;
   height: 1em;
   content: ' ';
-  background-image: url("../css/images/icons/icons/icon-share_dk.png");
+  background-image: url("../css/images/icons/icon-share_dk.png");
 }
 share-button .sb-social {
   position: absolute;

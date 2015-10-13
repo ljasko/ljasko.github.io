@@ -13,20 +13,16 @@ $('.info').on('click', function(event) {
 });
 
 
-
-// test of using window size
-
-var windowHeight = $(window).height();
-$('#').css('height', windowHeight);
+// // test of using window size
+// var windowHeight = $(window).height();
+// $('#').css('height', windowHeight);
 
 
-
-// share plugin
-
-new ShareButton({
-  networks: {
-    facebook: {
-      app_id: "abc123"
-    }
-  }
-});
+// // share plugin
+// new ShareButton({
+//   networks: {
+//     facebook: {
+//       app_id: "abc123"
+//     }
+//   }
+// });

@@ -139,8 +139,108 @@ p.quote {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-main.bio_Hillary {
-  background-image: url("../css/images/bios/bio-Hillary.jpg");
+main.bio_carly {
+  background-image: url("../css/images/bios/bio-carly.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_carson {
+  background-image: url("../css/images/bios/bio-carson.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_christie {
+  background-image: url("../css/images/bios/bio-christie.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_cruz {
+  background-image: url("../css/images/bios/bio-cruz.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_hillary {
+  background-image: url("../css/images/bios/bio-hillary.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_jindal {
+  background-image: url("../css/images/bios/bio-jindal.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_kasich {
+  background-image: url("../css/images/bios/bio-kasich.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_rand {
+  background-image: url("../css/images/bios/bio-rand.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_rubio {
+  background-image: url("../css/images/bios/bio-rubio.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_sanders {
+  background-image: url("../css/images/bios/bio-sanders.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  height: auto;
+  max-width: 100%;
+}
+
+main.bio_trump {
+  background-image: url("../css/images/bios/bio-sanders.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
