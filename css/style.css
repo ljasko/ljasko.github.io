@@ -253,6 +253,10 @@ main.bio_trump {
 /* MEDIA QUERIES
 /*******************************************/
 
+@-ms-viewport{
+  width: device-width;
+}
+
 @media screen and (min-width: 768px) {
   .btn_question {
     margin: 0px 12px;

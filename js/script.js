@@ -1,4 +1,4 @@
-// swap question for result
+// SWAP QUESTION FOR RESULT
 $('.btn_question').on('click', showResult)
 
 function showResult() {
@@ -6,19 +6,15 @@ function showResult() {
 	$('.show-result').css("display", "inline");
 }
 
-// toggle citation
+// TOGGLE CITATION
 $('.info').on('click', function(event) {
 	event.preventDefault();
 	$('.citation').slideToggle(200)
 });
 
 
-// // test of using window size
-// var windowHeight = $(window).height();
-// $('#').css('height', windowHeight);
 
-
-// // share plugin
+// // SHARE PLUGIN
 // new ShareButton({
 //   networks: {
 //     facebook: {
@@ -26,3 +22,8 @@ $('.info').on('click', function(event) {
 //     }
 //   }
 // });
+
+
+// // TEST OF USING WINDOW SIZE
+// var windowHeight = $(window).height();
+// $('#').css('height', windowHeight);
