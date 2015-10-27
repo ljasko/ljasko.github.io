@@ -1,6 +1,13 @@
 // CONTENT
 var pplData = [
   {
+    name: 'Marco Rubio',
+    party: 'Republican',
+    issue: 'Education',
+    quote: '“The public school system for millions of disadvantaged American children is a disaster. Many of these schools deny opportunity to those who need it most. We need to allow charter schools and other innovative schools to flourish."',
+    citation: '<a href="http://www.forbes.com/sites/maureensullivan/2015/04/13/marco-rubio-on-education-5-things-the-presidential-candidate-wants-you-to-know/" target="_blank"><em>source</em></a>: <em>Sullivan, Maureen</em>. "Marco Rubio On Education: 5 Things The Presidential Candidate Wants You To Know." <em>Forbes</em>. Web. Dec. 2012.>'
+  },
+  {
     name: 'Hillary Clinton',
     party: 'Democrat',
     issue: 'Immigration',
@@ -10,16 +17,37 @@ var pplData = [
   {
     name: "Carly Fiorina",
     party: 'Republican',
-    issue: 'Domestic Economy',
+    issue: 'Economy',
     quote: '"I prefer a tax code that\'s three pages long, not 70,000 pages long. I prefer a tax code that anybody can understand and can fill out without having to hire an accountant or a lawyer to do so."',
     citation: '<a href="http://www.foxnews.com/transcript/2015/06/26/carly-fiorina-explains-why-not-afraid-to-take-on-hillary-clinton-on-hannity/" target="_blank"><em>source</em></a>: <em>Hannity</em>. "Exclusive: One-on-one with Presidential Candidate Carly Fiorina." <em>Fox News</em>. Web. 25 June 2015.>'
   },
   {
     name: 'Rand Paul',
     party: 'Republican',
-    issue: 'Domestic Economy',
+    issue: 'Economy',
     quote: '“If you were to cut hundreds of billions of dollars in taxes, that money\'s left in communities...We\'re always trying to tax [poor communities] and then give them back a little bit to help them...We ought to leave the money in their communities because the money left will be left for productive people... It doesn\'t work to send it to Washington and then send it back.”',
     citation: '<a href="http://www.foxnews.com/transcript/2015/04/08/exclusive-one-on-one-with-presidential-candidate-rand-paul/" target="_blank"><em>source</em></a>: <em>Hannity</em>. "Exclusive: One-on-one with Presidential Candidate Rand Paul." <em>Fox News</em>. Web. 08 Apr. 2015.>'
+  },
+  {
+    name: 'Bernie Sanders',
+    party: 'Democrat',
+    issue: 'Ideology',
+    quote: '"If we are going to transform America, we need a political revolution in this country."',
+    citation: '<a href="https://www.youtube.com/watch?v=3we0_pSujjM" target="_blank"><em>source</em></a>: Speech. <em>Iowa State Fair</em>. Web. 15 Aug. 2015.>'
+  },
+  {
+    name: 'Donald Trump',
+    party: 'Republican',
+    issue: 'Immigration',
+    quote: '"This has to do with stopping illegal immigration. The southern border is totally porous. If you\'re going to have a country, you can\'t have that. It has to be legal immigration, not illegal immigration."',
+    citation: '<a href="http://theconservativetreehouse.com/2015/09/02/donald-trump-interview-with-don-lemon-september-1st-cnn/" target="_blank"><em>source</em></a>: <em>Don Lemon</em>. "Exclusive: One-on-One with Presidential Candidate Donald Trump" <em>CNN</em>. Web. 1 Sep. 2015.>'
+  }
+  {
+    name: 'Hillary Clinton',
+    party: 'Democrat',
+    issue: 'Economy',
+    quote: '"Don\'t let anybody tell you that it\'s corporations and businesses that create jobs."',
+    citation: '<a href="https://www.youtube.com/watch?v=PyUoCiWsTfI" target="_blank"><em>source</em></a>: Speech. Democratic rally in Massachusetts. Web. 24 Oct. 2014.>'
   }
 ];
 var index = 0;

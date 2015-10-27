@@ -289,7 +289,8 @@ section.inner {
 		min-width: 240px;
 		padding: 16px 36px;
 	}
-	button.btn_next {
+	button.btn_next, {
+		min-width: 240px;
 		padding: 16px 64px;
 	}
 	button.btn_question {
