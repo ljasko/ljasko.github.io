@@ -17,7 +17,7 @@ var pplData = [
 ];
 var index = 0;
 
-// SWAP QUESTION FOR RESULT
+// SWAP QUESTION AND RESULT
 $('.btn_question').on('click', showResult)
 
 function showResult() {
