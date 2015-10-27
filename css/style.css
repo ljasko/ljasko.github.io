@@ -12,6 +12,10 @@
 /* BASE STYLES
 /*******************************************/
 
+a {
+	text-decoration: none;
+}
+
 aside {
   display: flex;
   justify-content: space-between;
@@ -47,8 +51,9 @@ button,
 	color: #eee;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 28px;
-	max-width: 320px;
+	font-size: 22px;
+	margin-top: 20px;
+	max-width: 400px;
 	padding: 16px 36px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -145,6 +150,14 @@ header {
 	background-color: #444;
 	box-shadow: 0px 5px 0px black;
 	width: 100%;
+}
+
+label.error {
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
 }
 
 main,
@@ -265,8 +278,10 @@ section.inner {
 		margin: auto;
 	    max-width: 1280px;
   	}
- 	button {
+ 	button,
+ 	.submit {
 		font-size: 30px;
+		min-width: 240px;
 		padding: 16px 36px;
 	}
 	button.btn_next {
@@ -303,12 +318,6 @@ section.inner {
 	  }
 	h2 {
 	  	font-size: 30px;
-	}
-	label.error {
-		color: red;
-		font-size: 12px;
-		font-weight: bold;
-		text-transform: uppercase;
 	}
 	main.home,
 	section.home {
@@ -356,6 +365,9 @@ section.inner {
 	    min-height: 360px;
 	    padding: 20px;
   	}
+  	.submit {
+		margin-top: 20px;
+	}
 }
 
 @media screen and (min-width: 1280px) {

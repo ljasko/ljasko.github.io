@@ -83,7 +83,7 @@ function prevButton() {
 $('form').validate();
 
 $('input[name="candidate"]').autocomplete({
-  minLength: 2,
+  minLength: 1,
     source: [
       "Carly Fiorina",
       "Ben Carson", 
@@ -107,11 +107,10 @@ $('input[name="candidate"]').autocomplete({
   ]
 });
 
-// // SHARE PLUGIN
-// new ShareButton({
-//   networks: {
-//     facebook: {
-//       app_id: "abc123"
-//     }
-//   }
-// });
+$('.submit').on('click', thankYou)
+
+function thankYou() {
+  event.preventDefault();
+  $("form").trigger('reset');
+  $('#thanks').css('display', 'inline');
+}
