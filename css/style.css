@@ -59,7 +59,8 @@ button,
 	text-transform: uppercase;
 }
 
-button:hover {
+button:hover,
+.submit:hover {
 	background-color: #7e7eb0;
 }
 
@@ -97,13 +98,13 @@ footer {
 
 footer nav {
 	max-width: 1280px;
-	padding: 10px;
+	padding: 6px;
 }
 
 footer nav a {
 	color: #eee;
 	font-size: 14px;
-	padding: 0 10px;
+	padding: 0 6px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -169,7 +170,6 @@ section {
 
 main.inner {
 	background-color: rgba(68, 68, 68, 0.15);
-	display: flex;
   	margin-bottom: 36px;
 }
 
@@ -197,10 +197,11 @@ section.inner {
 
 main article.inner {
 	color: #444;
-	margin: 0;
+	margin: auto;
 	max-width: 1280px;
-	min-height: 200px;
+	min-height: 260px;
 	padding: 10px 20px;
+	position: relative;
 }
 
 main article.primary {
@@ -228,8 +229,12 @@ h4 {
 	text-align: left;
 }
 
-p.quote {
+p.candidate-quote {
  	font-family: 'Raleway', sans-serif;
+ 	margin: 0;
+ 	position: absolute;
+ 	top: 50%;
+ 	transform: translate(0, -50%);
 }
 
 p.subtext {
@@ -328,7 +333,6 @@ section.inner {
 	}
 	main article.inner {
 		min-height: 420px;
-		margin: auto;
 		padding: 30px;
 	}
 	main article.primary {
@@ -344,9 +348,10 @@ section.inner {
 	}
 	h4 {
 		font-size: 18px;
+		margin-bottom: 20px;
 	}
-	p.quote {
-	  	font-family: 'Raleway', sans-serif;
+	p.candidate-quote {
+		font-size: 36px;
 	}
 	p.subtext {
 		font-size: 22px;
@@ -373,5 +378,11 @@ section.inner {
 @media screen and (min-width: 1280px) {
 	h1.home {
 		font-size: 72px;
+	}
+	main article.inner {
+		min-height: 480px;
+	}
+	p.candidate-quote {
+		font-size: 42px;
 	}
 }

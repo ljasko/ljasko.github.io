@@ -8,6 +8,13 @@ var pplData = [
     citation: '<a href="http://dailycaller.com/2015/05/07/unearthed-audio-hillary-said-shes-adamantly-against-illegal-immigrants-audio/" target="_blank"><em>source</em></a>: Ross, Chuck. <em>The John Gambling Show</em>. Feb. 2003. <em>The Daily Caller</em>. Web. 07 May 2015.'
   },
   {
+    name: "Carly Fiorina",
+    party: 'Republican',
+    issue: 'Domestic Economy',
+    quote: '"I prefer a tax code that\'s three pages long, not 70,000 pages long. I prefer a tax code that anybody can understand and can fill out without having to hire an accountant or a lawyer to do so."',
+    citation: '<a href="http://www.foxnews.com/transcript/2015/06/26/carly-fiorina-explains-why-not-afraid-to-take-on-hillary-clinton-on-hannity/" target="_blank"><em>source</em></a>: <em>Hannity</em>. "Exclusive: One-on-one with Presidential Candidate Carly Fiorina." <em>Fox News</em>. Web. 25 June 2015.>'
+  },
+  {
     name: 'Rand Paul',
     party: 'Republican',
     issue: 'Domestic Economy',
@@ -87,25 +94,24 @@ $('form').validate();
 $('input[name="candidate"]').autocomplete({
   minLength: 1,
     source: [
-      "Carly Fiorina",
-      "Ben Carson", 
-      "Chris Christie", 
-      "Ted Cruz", 
-      "Lindsey Graham",
+      "Ben Carson",
+      "Chris Christie",
       "Hillary Clinton",
+      "Ted Cruz",
+      "Carly Fiorina",  
+      "Lindsey Graham",
       "Mike Huckabee",
       "Bobby Jindal",
       "John Kasich",
+      "Martin O'Malley",
       "George Pataki",
       "Rand Paul",
       "Marco Rubio",
-      "Martin O'Malley",
-      "Jim Webb",
       "Bernie Sanders",
       "Rick Santorum",
       "Donald Trump",
-      "Scott Walker"
-
+      "Scott Walker",
+      "Jim Webb"
   ]
 });
 
