@@ -59,6 +59,8 @@ function updatePage(){
   var candIssue = pplData[index].issue;
   var candQuote = pplData[index].quote;
   var candCitation = pplData[index].citation;
+  var candImage = candName.replace(/\s+/g, '-').toLowerCase();
+  $('main.inner_result').css('background-image', 'url("images/bios/bio-' + candImage + '.jpg")');
 
   $('#candidate-name').html(candName);
   $('#candidate-party').html(candParty);

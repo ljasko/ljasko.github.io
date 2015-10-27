@@ -174,7 +174,7 @@ main.inner {
 }
 
 main.inner_result {
-  	background-image: url("../images/bios/bio-hillary.jpg");
+  	/*background-image: url("../images/bios/bio-hillary.jpg");*/
   	background-position: top right;
   	background-repeat: no-repeat;
   	background-size: cover;
