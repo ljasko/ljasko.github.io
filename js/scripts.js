@@ -43,6 +43,13 @@ var pplData = [
     citation: '<a href="http://theconservativetreehouse.com/2015/09/02/donald-trump-interview-with-don-lemon-september-1st-cnn/" target="_blank"><em>source</em></a>: <em>Don Lemon</em>. "Exclusive: One-on-One with Presidential Candidate Donald Trump" <em>CNN</em>. Web. 1 Sep. 2015.>'
   },
   {
+    name: 'Ben Carson',
+    party: 'Republican',
+    issue: 'Education',
+    quote: '"If you happen to be in an affluent community, there’s a lot more money for the schools, better facilities, everything. All that does is perpetuate the situation. Wouldn’t it make more sense to put the money in a pot and redistribute it throughout the country so that public schools are equal, whether you’re in a poor area or a wealthy area?"',
+    citation: '<a href="http://www.politico.com/magazine/story/2014/04/who-is-dr-ben-carson-105875_Page2.html#.VjFABrerRD-" target="_blank"><em>source</em></a>: <em>Hamblim, James</em>. "Who is Dr. Ben Carson?" <em>Politico Magazine</em>. Web. 21 Apr. 2014.>'
+  },
+  {
     name: 'Hillary Clinton',
     party: 'Democrat',
     issue: 'Economy',
