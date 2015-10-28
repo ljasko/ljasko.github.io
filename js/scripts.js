@@ -143,10 +143,10 @@ $('input[name="candidate"]').autocomplete({
   ]
 });
 
-$('.submit').on('click', thankYou);
+// $('.submit').on('click', thankYou);
 
-function thankYou() {
-  event.preventDefault();
-  $("form").trigger('reset');
-  $('#thanks').css('display', 'inline');
-};
+// function thankYou() {
+//   event.preventDefault();
+//   $("form").trigger('reset');
+//   $('#thanks').css('display', 'inline');
+// };
