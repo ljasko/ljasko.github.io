@@ -271,6 +271,42 @@ section.inner {
 }
 
 /******************************************
+/* MEET THE CANDIDATES
+/*******************************************/
+
+ul {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  color: white;
+  overflow: hidden;
+  position: relative;
+  width: 33.3%;
+}
+
+ul img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.popup {
+  background-color: rgba(68,68,68,0.75);
+  bottom: -20px;
+  height: 90px;
+  padding: 12px;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+}
+
+/******************************************
 /* MEDIA QUERIES
 /*******************************************/
 
@@ -291,7 +327,7 @@ section.inner {
 	}
 	button.btn_next, {
 		min-width: 240px;
-		
+
 		padding: 16px 64px;
 	}
 	button.btn_question {

@@ -123,6 +123,18 @@ function prevButton() {
   updatePage();
 }
 
+// MEET THE CANDIDATES
+$('li').hover(function() {
+  var textTitle = $(this).data('cand');
+  var textHref = $(this).data('href');
+
+  var html = '<div class="popup">';
+    html += '<h3>' + textTitle + '</h3>';
+
+  $('.popup').remove();
+  $(this).append(html);
+});
+
 // FORM
 $('form').validate();
 
