@@ -142,23 +142,23 @@ $('input[name="candidate"]').autocomplete({
   minLength: 1,
     source: [
       "Ben Carson",
-      "Chris Christie",
-      "Hillary Clinton",
-      "Ted Cruz",
-      "Carly Fiorina",  
-      "Lindsey Graham",
-      "Mike Huckabee",
-      "Bobby Jindal",
-      "John Kasich",
-      "Martin O'Malley",
-      "George Pataki",
-      "Rand Paul",
-      "Marco Rubio",
       "Bernie Sanders",
-      "Rick Santorum",
+      "Bobby Jindal",
+      "Carly Fiorina",
+      "Chris Christie",
       "Donald Trump",
+      "George Pataki",
+      "Hillary Clinton",
+      "Jim Webb",
+      "John Kasich",
+      "Lindsey Graham",
+      "Marco Rubio",
+      "Martin O'Malley",
+      "Mike Huckabee",
+      "Rand Paul",
+      "Rick Santorum",
       "Scott Walker",
-      "Jim Webb"
+      "Ted Cruz"
   ]
 });
 
