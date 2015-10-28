@@ -41,7 +41,7 @@ var pplData = [
     issue: 'Immigration',
     quote: '"This has to do with stopping illegal immigration. The southern border is totally porous. If you\'re going to have a country, you can\'t have that. It has to be legal immigration, not illegal immigration."',
     citation: '<a href="http://theconservativetreehouse.com/2015/09/02/donald-trump-interview-with-don-lemon-september-1st-cnn/" target="_blank"><em>source</em></a>: <em>Don Lemon</em>. "Exclusive: One-on-One with Presidential Candidate Donald Trump" <em>CNN</em>. Web. 1 Sep. 2015.>'
-  }
+  },
   {
     name: 'Hillary Clinton',
     party: 'Democrat',
@@ -143,10 +143,10 @@ $('input[name="candidate"]').autocomplete({
   ]
 });
 
-$('.submit').on('click', thankYou)
+$('.submit').on('click', thankYou);
 
 function thankYou() {
   event.preventDefault();
   $("form").trigger('reset');
   $('#thanks').css('display', 'inline');
-}
+};
