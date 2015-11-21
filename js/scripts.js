@@ -88,7 +88,7 @@ var pplData = [
     name: 'Rand Paul',
     party: 'Republican',
     issue: 'Economy',
-    quote: '"Services like Uber, Airbnb, and Lyft stimulate our economy and work towards lower prices." ... "We need more innovation, not less."',
+    quote: '"Services like Uber, Airbnb, and Lyft stimulate our economy and work towards lower prices....We need more innovation, not less."',
     citation: '<a href="https://twitter.com/RandPaul" target="_blank"><em>source</em></a>: <em>Twitter</em>. Web. 13 July 2015.'
   },
   {
