@@ -300,8 +300,8 @@ ul img {
 .popup {
   background-color: rgba(0,0,0,0.5);
   bottom: 0px;
-  height: 100%;
-  padding: 24px;
+/*  height: 100%;*/
+  padding: 10px;
   position: absolute;
   width: 100%;
   z-index: 9998;
