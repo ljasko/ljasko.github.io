@@ -280,7 +280,7 @@ ul {
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 40px 0;
 }
 
 ul li {
@@ -297,10 +297,10 @@ ul img {
 }
 
 .popup {
-  background-color: rgba(68,68,68,0.75);
-  bottom: -20px;
-  height: 90px;
-  padding: 12px;
+  background-color: rgba(0,0,0,0.5);
+  bottom: 0px;
+  height: 100%;
+  padding: 24px;
   position: absolute;
   width: 100%;
   z-index: 9999;
@@ -416,6 +416,12 @@ ul img {
 	}
 }
 
+@media screen and (min-width: 960px) {
+	ul li {
+	  width: 33.3%;
+	}
+}
+
 @media screen and (min-width: 1280px) {
 	h1.home {
 		font-size: 72px;
@@ -427,6 +433,12 @@ ul img {
 		font-size: 42px;
 	}
 	ul li {
-	  width: 33.3%;
+	  width: 25%;
+	}
+}
+
+@media screen and (min-width: 1940px) {
+	ul li {
+	  width: 20%;
 	}
 }
